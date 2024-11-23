@@ -1,0 +1,17 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.metadata = void 0;
+const google_1 = require("next/font/google");
+require("./globals.css");
+const inter = (0, google_1.Inter)({ subsets: ['latin'] });
+exports.metadata = {
+    title: 'Agentic Documents Assistant',
+    description: 'Chatty, the LLM Agentic Documents Assistant.',
+};
+function RootLayout({ children, }) {
+    return (<html lang="en">
+      <body className={inter.className}>{children}</body>
+    </html>);
+}
+exports.default = RootLayout;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibGF5b3V0LmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibGF5b3V0LnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFDQSw2Q0FBd0M7QUFDeEMseUJBQXNCO0FBRXRCLE1BQU0sS0FBSyxHQUFHLElBQUEsY0FBSyxFQUFDLEVBQUUsT0FBTyxFQUFFLENBQUMsT0FBTyxDQUFDLEVBQUUsQ0FBQyxDQUFBO0FBRTlCLFFBQUEsUUFBUSxHQUFhO0lBQ2hDLEtBQUssRUFBRSw2QkFBNkI7SUFDcEMsV0FBVyxFQUFFLDhDQUE4QztDQUM1RCxDQUFBO0FBRUQsU0FBd0IsVUFBVSxDQUFDLEVBQ2pDLFFBQVEsR0FHVDtJQUNDLE9BQU8sQ0FDTCxDQUFDLElBQUksQ0FBQyxJQUFJLENBQUMsSUFBSSxDQUNiO01BQUEsQ0FBQyxJQUFJLENBQUMsU0FBUyxDQUFDLENBQUMsS0FBSyxDQUFDLFNBQVMsQ0FBQyxDQUFDLENBQUMsUUFBUSxDQUFDLEVBQUUsSUFBSSxDQUNwRDtJQUFBLEVBQUUsSUFBSSxDQUFDLENBQ1IsQ0FBQTtBQUNILENBQUM7QUFWRCw2QkFVQyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB0eXBlIHsgTWV0YWRhdGEgfSBmcm9tICduZXh0J1xuaW1wb3J0IHsgSW50ZXIgfSBmcm9tICduZXh0L2ZvbnQvZ29vZ2xlJ1xuaW1wb3J0ICcuL2dsb2JhbHMuY3NzJ1xuXG5jb25zdCBpbnRlciA9IEludGVyKHsgc3Vic2V0czogWydsYXRpbiddIH0pXG5cbmV4cG9ydCBjb25zdCBtZXRhZGF0YTogTWV0YWRhdGEgPSB7XG4gIHRpdGxlOiAnQWdlbnRpYyBEb2N1bWVudHMgQXNzaXN0YW50JyxcbiAgZGVzY3JpcHRpb246ICdDaGF0dHksIHRoZSBMTE0gQWdlbnRpYyBEb2N1bWVudHMgQXNzaXN0YW50LicsXG59XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFJvb3RMYXlvdXQoe1xuICBjaGlsZHJlbixcbn06IHtcbiAgY2hpbGRyZW46IFJlYWN0LlJlYWN0Tm9kZVxufSkge1xuICByZXR1cm4gKFxuICAgIDxodG1sIGxhbmc9XCJlblwiPlxuICAgICAgPGJvZHkgY2xhc3NOYW1lPXtpbnRlci5jbGFzc05hbWV9PntjaGlsZHJlbn08L2JvZHk+XG4gICAgPC9odG1sPlxuICApXG59XG4iXX0=

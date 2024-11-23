@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const react_1 = require("react");
+const icons_react_1 = require("@tabler/icons-react");
+const ClearButton = ({ onClick }) => {
+    return (<button className="text-gray-600 text-sm hover:text-gray-800 hover:shadow-sm focus:outline-none flex items-center" onClick={onClick}>
+      Clear Conversation
+      <icons_react_1.IconTrash className="w-4 h-4 mr-1"/>
+    </button>);
+};
+exports.default = ClearButton;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiQ2xlYXJCdXR0b24uanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJDbGVhckJ1dHRvbi50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQSxpQ0FBMEI7QUFDMUIscURBQWdEO0FBTWhELE1BQU0sV0FBVyxHQUErQixDQUFDLEVBQUUsT0FBTyxFQUFFLEVBQUUsRUFBRTtJQUM5RCxPQUFPLENBQ0wsQ0FBQyxNQUFNLENBQ0wsU0FBUyxDQUFDLGdHQUFnRyxDQUMxRyxPQUFPLENBQUMsQ0FBQyxPQUFPLENBQUMsQ0FFakI7O01BQ0EsQ0FBQyx1QkFBUyxDQUFDLFNBQVMsQ0FBQyxjQUFjLEVBQ3JDO0lBQUEsRUFBRSxNQUFNLENBQUMsQ0FDVixDQUFDO0FBQ0osQ0FBQyxDQUFDO0FBRUYsa0JBQWUsV0FBVyxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuaW1wb3J0IHsgSWNvblRyYXNoIH0gZnJvbSBcIkB0YWJsZXIvaWNvbnMtcmVhY3RcIjtcblxuaW50ZXJmYWNlIENsZWFyQnV0dG9uUHJvcHMge1xuICBvbkNsaWNrOiAoKSA9PiB2b2lkO1xufVxuXG5jb25zdCBDbGVhckJ1dHRvbjogUmVhY3QuRkM8Q2xlYXJCdXR0b25Qcm9wcz4gPSAoeyBvbkNsaWNrIH0pID0+IHtcbiAgcmV0dXJuIChcbiAgICA8YnV0dG9uXG4gICAgICBjbGFzc05hbWU9XCJ0ZXh0LWdyYXktNjAwIHRleHQtc20gaG92ZXI6dGV4dC1ncmF5LTgwMCBob3ZlcjpzaGFkb3ctc20gZm9jdXM6b3V0bGluZS1ub25lIGZsZXggaXRlbXMtY2VudGVyXCJcbiAgICAgIG9uQ2xpY2s9e29uQ2xpY2t9XG4gICAgPlxuICAgICAgQ2xlYXIgQ29udmVyc2F0aW9uXG4gICAgICA8SWNvblRyYXNoIGNsYXNzTmFtZT1cInctNCBoLTQgbXItMVwiIC8+XG4gICAgPC9idXR0b24+XG4gICk7XG59O1xuXG5leHBvcnQgZGVmYXVsdCBDbGVhckJ1dHRvbjtcbiJdfQ==

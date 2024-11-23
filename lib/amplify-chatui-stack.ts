@@ -34,8 +34,8 @@ export class AmplifyChatuiStack extends cdk.Stack {
       autoBranchDeletion: true,
       sourceCodeProvider: new amplify.GitHubSourceCodeProvider({
         owner: 'Arjun599', // Replace with your GitHub username
-        repository: 'build-an-agentic-llm-assistant', // Replace with your GitHub repository name
-        oauthToken: cdk.SecretValue.secretsManager('GitHubOAuthToken'), // Store your GitHub OAuth token in Secrets Manager
+        repository: 'AgniFrontend', // Replace with your GitHub repository name
+        oauthToken: cdk.SecretValue.secretsManager('GitHubOAuthTokenMain'), // Store your GitHub OAuth token in Secrets Manager
       }),
       // enable server side rendering
       platform: amplify.Platform.WEB_COMPUTE,
