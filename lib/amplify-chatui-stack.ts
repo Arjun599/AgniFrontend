@@ -1,5 +1,6 @@
 import * as amplify from '@aws-cdk/aws-amplify-alpha';
 import * as cdk from 'aws-cdk-lib';
+import * as codebuild from 'aws-cdk-lib/aws-codebuild';
 import { Construct } from 'constructs';
 import * as ssm from 'aws-cdk-lib/aws-ssm';
 import * as lambda from 'aws-cdk-lib/aws-lambda';

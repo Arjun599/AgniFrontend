@@ -7,8 +7,8 @@
     "strict": true,           // Optional but recommended for strict type checking
     "moduleResolution": "node",  // Ensures proper module resolution
     "skipLibCheck": true,
-    "noEmit": true,
     "esModuleInterop": true,
+    "noEmit": true,
     "module": "esnext",
     "resolveJsonModule": true,
     "isolatedModules": true,
