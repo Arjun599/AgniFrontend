@@ -49,7 +49,28 @@ export class AmplifyChatuiStack extends cdk.Stack {
         'AMPLIFY_USERPOOL_ID': cognito_user_pool_id_parameter,
         'COGNITO_USERPOOL_CLIENT_ID': cognito_user_pool_client_id_parameter,
         'API_ENDPOINT': agent_api_parameter
-      }
+      },
+      buildSpec: codebuild.BuildSpec.fromObject({
+        version: '1.0',
+        frontend: {
+          phases: {
+            preBuild: {
+              commands: [
+                'npm install'
+              ]
+            },
+            build: {
+              commands: [
+                'npm run build'
+              ]
+            }
+          },
+          artifacts: {
+            baseDirectory: '.next', // Adjust this if your build output is in a different directory
+            files: '**/*'
+          }
+        }
+      })
     });
 
     amplifyChatUI.addBranch('main', {stage: "PRODUCTION"});
